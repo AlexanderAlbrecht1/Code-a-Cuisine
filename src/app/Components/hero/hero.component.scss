@@ -6,3 +6,72 @@
   height: 100vh;
   background-color: $bgGreen;
 }
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 64px;
+  color: $creme;
+  > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 240px;
+    margin-bottom: 64px;
+    > p:nth-child(1) {
+      all: unset;
+      font-size: 48px;
+      font-weight: 600;
+    }
+  }
+}
+
+h1 {
+  all: unset;
+  font-size: 104px;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 186px;
+  height: 60px;
+  gap: 10px;
+  padding: 16px, 26px;
+  background-color: $creme2;
+  color: $green;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 300px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.cookbook {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  >p:nth-child(1) {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 104%;
+    color: $creme2;
+  }
+  >div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    padding: 16px, 26px;
+    >p:nth-child(1) {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}
+
+.arrow-wrapper {
+  width: 24px;
+  background-image: url('/img/arrow-right.svg');
+}
