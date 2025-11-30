@@ -1,6 +1,12 @@
 <header>
-  <section class="logo-area">
-    <div></div>
-    <div></div>
+  <section class="logo-area" routerLink="">
+  @if (logoLight) {
+        <img src="/img/cookHead.svg" alt="">
+        <img src="/img/codeACuisine.svg" alt="">
+  } @else {
+        <img src="/img/cookHead_green.svg" alt="">
+        <img src="/img/codeACuisine_green.svg" alt="">
+  }
+
   </section>
 </header>

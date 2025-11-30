@@ -15,18 +15,10 @@ header {
   height: 48px;
   background-color: transparent;
   gap: 8px;
-  > div:nth-child(1) {
+  > img:nth-child(1) {
     width: 50px;
-    background-image: url("/img/cookHead.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
   }
-  >div:nth-child(2) {
+  >img:nth-child(2) {
     width: 87px;
-    background-image: url("/img/codeACuisine.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
   }
 }
